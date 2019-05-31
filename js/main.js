@@ -13,18 +13,15 @@ function findLabel() {
     try {
         let searchID = document.getElementById('findValue').value,
             results = [];
-        console.log("searchID: " + searchID);
         if (data[0].id == searchID) {
             results.push(data[0]);
         } else {
             for (let i = 0; i < data[0].children.length; i++) {
-                console.log("i: " + i);
                 if (data[0].children[i].id == searchID) {
                     results.push(data[0].children[i]);
                 }
                 if (data[0].children[i].children) {
                     for (let j = 0; j < data[0].children[i].children.length; j++) {
-                        console.log("j: " + j);
                         if (data[0].children[i].children[j].id == searchID) {
                             results.push(data[0].children[i].children[j]);
                         }
