@@ -1,0 +1,45 @@
+[
+  {
+    "label": "A",
+    "id": 1,
+    "children": [
+      {
+        "label": "B",
+        "id": 2,
+        "children": [
+          {
+            "label": "E",
+            "id": 5
+          },
+          {
+            "label": "F",
+            "id": 6
+          },
+          {
+            "label": "G",
+            "id": 7
+          }
+
+        ]
+      },
+      {
+        "label": "C",
+        "id": 3
+      },
+      {
+        "label": "D",
+        "id": 4,
+        "children": [
+          {
+            "label": "H",
+            "id": 8
+          },
+          {
+            "label": "I",
+            "id": 9
+          }
+        ]
+      }
+    ]
+  }
+]

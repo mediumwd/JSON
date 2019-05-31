@@ -1,0 +1,51 @@
+.find-label-by-id, .task4 {
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+.find-label-by-id img {
+    width: 100%;
+    height: auto;
+}
+.find-label-by-id:after{
+    content: "";
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 5px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.task4 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.buttons {
+    display: flex;
+    margin-top: 10px;
+}
+.input-holders{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.required {
+    display: flex;
+}
+.task4 input[type="text"]{
+    background-color: rgba(0,255,0,.1);
+}
+.task4 input:required{
+    background-color: rgba(255,0,0,.1);
+}
+
+.task4 .required:after {
+    content: "*";
+    display: inline-block;
+    font-size: 18px;
+    color: red;
+    margin-left: 3px;
+
+}
+.buttons input[type="submit"], .buttons input[type="button"] {
+    font-size: 18px;
+}
